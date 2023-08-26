@@ -1,0 +1,71 @@
+@import "rsuite/dist/rsuite.css";
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@600&family=Work+Sans:wght@600&display=swap');
+
+#root {
+  box-sizing: border-box;
+}
+
+.main {
+  background: url("/Rectangle\ 9398.png"),
+    lightgray 50% / cover no-repeat !important;
+}
+
+.brand-name {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: Pacifico;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.brand-icon {
+  width: 20% !important;
+  flex-shrink: 0;
+}
+
+.content-heading {
+  color: #F7F9F9;
+  font-size: 24px;
+  font-family: Work Sans;
+  font-weight: 600;
+  line-height: 28px;
+  word-wrap: break-word
+}
+
+.searchbar {
+  height: 50px;
+  background: linear-gradient(95deg, rgba(124, 15, 53, 0.20) 0%, rgba(88, 18, 102, 0.20) 100%);
+  border-radius: 20px !important;
+  color: #FFF !important;
+  font-family: Poppins;
+  /* border: 0.50px white solid */
+
+}
+
+span {
+  color: #F5F5F5;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.card-bg{
+  border-radius: 10px;
+background: #390554 !important;
+color: #F5F5F5 !important;
+}
+.card-title{
+color: #FFF;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+p{
+  margin: 0!important;
+  display: flex;
+  justify-content: space-between;
+}
